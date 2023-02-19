@@ -104,6 +104,3 @@ print(sum(cap_count))
 #    return answer 
 #
 #print(largest_histogram([1, 2, 3, 3, 3, 2]))
-#dano = [1,2,3,3,4]
-#for j in dano[-3::-1]:
-#    print(j)
