@@ -1,4 +1,4 @@
-#1
+#1_asd
 def fractional_number_generator(n):
     from random import uniform
     for _ in range(n):
