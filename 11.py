@@ -7,8 +7,11 @@ def fractional_number_generator(n):
 print(list(fractional_number_generator(3)))
 
 #2
-from itertools import chain
-print(list(chain([1, 2], [3, 4])))
+def iterchain(fst_list, snd_list):
+    from itertools import chain
+    return list(chain(fst_list, snd_list))
+
+print(iterchain([1, 2], [3, 4, 5]))
 
 #3
 def responses_creator(item_ids):
