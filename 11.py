@@ -6,7 +6,7 @@ def fractional_number_generator(n):
         
 print(list(fractional_number_generator(3)))
 
-#2
+#2_sad
 def iterchain(fst_list, snd_list):
     from itertools import chain
     return list(chain(fst_list, snd_list))
