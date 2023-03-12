@@ -13,7 +13,7 @@ def iterchain(fst_list, snd_list):
 
 print(iterchain([1, 2], [3, 4, 5]))
 
-#3
+#3_bad
 def responses_creator(item_ids):
     return [dict(item_id = item_id) for item_id in item_ids]
     
