@@ -1,4 +1,4 @@
-#1
+#1_asd
 class Friends():
     def __init__(self, connections):
         from collections import defaultdict
